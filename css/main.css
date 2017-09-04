@@ -133,6 +133,10 @@ ul li {
     vertical-align: top;
 }
 
+.personalInfoDetail .name {
+    margin-bottom: 20px;
+}
+
 .navLine {
     height: 2px;
     border: none;
