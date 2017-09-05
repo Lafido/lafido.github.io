@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/av-min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
@@ -150,11 +149,19 @@
                                 <span><img src="./images/BSS-APP.png" width="345px" class="project-pic"></span>
                                 <div class="project-descr-block">
                                     <div class="text-justify">
-                                        <p>Bike-Sharing System (BSS) is a convenient service deployed in many big cities to alleviate the last-mile problem.
-                                                The explosion of users in BSS causes unbalance of resources in the system and inconvenience of bike utilization for user.
-                                                Now, it is quite often that some users are not able to borrow or return bikes from or to stations because of the serious  unbalance of resources in the BSS, i.e. some stations have few bikes or docks.
-                                                </p>
-                                        <p>To tackle the problem, we built a crowdsourcing platform named "HeyBike" as shown in the left figure. HeyBike can collect real-time bike resources information by crowdsourcing so as to provide users more accurate information of bike stations nearby. It also provides users the full bike utilization guidance, which composes of three segments: from user's start point to a start station, from the start station to a target station and from the target station to user’s terminal point.</p>
+                                        <p>Bike-Sharing System (BSS) is a convenient service deployed in many big cities to
+                                            alleviate the last-mile problem. The explosion of users in BSS causes unbalance
+                                            of resources in the system and inconvenience of bike utilization for user. Now,
+                                            it is quite often that some users are not able to borrow or return bikes from
+                                            or to stations because of the serious unbalance of resources in the BSS, i.e.
+                                            some stations have few bikes or docks.
+                                        </p>
+                                        <p>To tackle the problem, we built a crowdsourcing platform named "HeyBike" as shown
+                                            in the left figure. HeyBike can collect real-time bike resources information
+                                            by crowdsourcing so as to provide users more accurate information of bike stations
+                                            nearby. It also provides users the full bike utilization guidance, which composes
+                                            of three segments: from user's start point to a start station, from the start
+                                            station to a target station and from the target station to user’s terminal point.</p>
                                         <p>Related paper accepted by <a href="./files/MASS17-bike.pdf">IEEE MASS</a>.</p>
                                     </div>
                                 </div>
@@ -166,17 +173,18 @@
                                 <div class="project-descr-block">
                                     <div class="text-justify">
                                         <p>Fire hazard puts health of millions at risk and results in billions of loss all around
-                                            the world every year. When fire hazard occurs in a building,
-                                            especially the building with complex structure, people in the building are unable to find the feasible or better escaping route without guidance so that the precious surviving
-                                            time is wasted, which causes unnecessary injury or death.
-                                            Therefore, a fire escaping system that provides real time fire and routing
-                                            information during fire escaping can help people escape as fast and safe as possible.
+                                            the world every year. When fire hazard occurs in a building, especially the building
+                                            with complex structure, people in the building are unable to find the feasible
+                                            or better escaping route without guidance so that the precious surviving time
+                                            is wasted, which causes unnecessary injury or death. Therefore, a fire escaping
+                                            system that provides real time fire and routing information during fire escaping
+                                            can help people escape as fast and safe as possible.
                                         </p>
                                         <p>
                                             In this work, we design a fire spreading prediction based fire escaping route planning approach for people. We design a smartphone
                                             based crowd density detection method so that the crowd information could be considered
-                                            in fire escaping route planning. We also build a network of TelosB
-                                            nodes, Android smartphones and Arduino suite (Arguino Mega 2560, XBee and Wifi Bee).
+                                            in fire escaping route planning. We also build a network of TelosB nodes, Android
+                                            smartphones and Arduino suite (Arguino Mega 2560, XBee and Wifi Bee).
                                         </p>
                                         <p>Related paper published in <a href="./files/PPNA-fireescape.pdf">PPNA</a>.</p>
                                     </div>
@@ -238,6 +246,22 @@
         <div class="arrow"></div>
         <div class="stick"></div>
     </div>
+    <script src="js/av-min.js"></script>
+    <script>
+        var APP_ID = 'TbmC7Q5uzyHmuq150TqeDEcO-gzGzoHsz';
+        var APP_KEY = 'BCFsBxMvBDgAcRd3EyTlCQiN';
+
+        AV.init({
+            appId: APP_ID,
+            appKey: APP_KEY
+        });
+
+        var TestObject = AV.Object.extend('TestObject');
+        var testObject = new TestObject();
+        testObject.save({
+            words: 'Hello~'
+        })
+    </script>
 </body>
 
 </html>
