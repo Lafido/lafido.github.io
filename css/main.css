@@ -95,12 +95,12 @@ ul li {
 }
 
 .wrapper .container {
-    max-width: 100rem;
+    max-width: 105rem;
     margin-bottom: 2rem;
 }
 
 .inner-container {
-    max-width: 90rem;
+    max-width: 95rem;
     padding-left: 5rem;
 }
 
@@ -147,6 +147,10 @@ ul li {
 
 .navi {
     text-align: center;
+}
+
+.news p {
+    margin-bottom: 0.5rem;
 }
 
 .text-justify {
