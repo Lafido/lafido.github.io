@@ -95,13 +95,13 @@ ul li {
 }
 
 .wrapper .container {
-    max-width: 1050px;
-    margin-bottom: 20px;
+    max-width: 105rem;
+    margin-bottom: 2rem;
 }
 
 .inner-container {
-    max-width: 950px;
-    padding-left: 50px;
+    max-width: 95rem;
+    padding-left: 5rem;
 }
 
 .personalInfo {
@@ -166,7 +166,7 @@ ul li {
 .present-descr-block {
     margin-left: 2rem;
     display: inline-block;
-    max-width: 500px;
+    max-width: 46rem;
     vertical-align: top;
 }
 
@@ -176,15 +176,15 @@ ul li {
 }
 
 .project-pic {
-    margin-left: 20px;
+    margin-left: 2rem;
     vertical-align: top;
     margin-top: 5px;
 }
 
 .project-descr-block {
-    margin-left: 20px;
+    margin-left: 2rem;
     display: inline-block;
-    max-width: 500px;
+    max-width: 46rem;
     vertical-align: top;
 }
 
