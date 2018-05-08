@@ -123,12 +123,17 @@ ul li {
     margin-bottom: 8px;
 }
 
+.position {
+    margin-bottom: 15px;
+    margin-top:-15px;
+}
+
 .address {
     margin-bottom: 15px;
 }
 
 .personalInfoDetail {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     display: inline-block;
     vertical-align: top;
 }
